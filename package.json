@@ -1,0 +1,10 @@
+{
+  "name": "coverage-svg",
+  "description": "coverage % tag as svg generated for istambul unit test coverage provider",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "main": "coverage-svg.cjs",
+  "dependencies": {
+    "istanbul-lib-report": "^3.0.1"
+  }
+}
