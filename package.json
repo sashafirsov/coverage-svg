@@ -1,10 +1,40 @@
 {
-  "name": "coverage-svg",
-  "description": "coverage % tag as svg generated for istambul unit test coverage provider",
-  "version": "0.0.1",
-  "type": "commonjs",
-  "main": "coverage-svg.cjs",
-  "dependencies": {
-    "istanbul-lib-report": "^3.0.1"
-  }
+    "name": "coverage-svg",
+    "description": "coverage % tag as svg generated for istambul unit test coverage provider",
+    "version": "0.0.2",
+    "type": "commonjs",
+    "main": "coverage-svg.cjs",
+    "dependencies": {
+        "istanbul-lib-report": "^3.0.1"
+    },
+    "author": {
+        "name": "Sasha Firsov",
+        "email": "suns@simulationworks.com",
+        "url": "https://blog.firsov.net/"
+    },
+    "files": [
+        "*",
+        "**/*"
+    ],
+    "exports": {
+        ".": "./coverage-svg.cjs",
+        "./package.json": "./package.json",
+        "./coverage-svg": "./coverage-svg.cjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sashafirsov/coverage-svg.git"
+    },
+    "keywords": [
+        "JS",
+        "coverage",
+        "vitest",
+        "istambul",
+        "svg"
+    ],
+    "license": "MIT",
+    "funding": {
+        "type": "patreon",
+        "url": "https://www.patreon.com/sashafirsov"
+    }
 }
